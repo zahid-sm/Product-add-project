@@ -1,0 +1,607 @@
+*{
+    font-family: 'Merienda', cursive;
+}
+
+ /* Header Section Start */
+
+.header-section{
+    height: 950px;
+    background-image: radial-gradient(white, crimson);
+}
+
+/* header Menu Start */
+
+.header-menu ul{
+    padding-top: 40px;
+    margin-right: 150px;
+    text-align: right;
+}
+
+.header-menu ul li{
+    display: inline-block;
+}
+
+.header-menu ul li a{
+    text-decoration: none;
+    margin-right: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px;
+    transition: .5s;    
+}
+
+.header-menu ul li:hover a{
+    color: #fff;
+    
+}
+
+.header-menu h1{
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+/* Header Text start */
+
+.header-text{
+    width: 800px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    line-height: 30px;
+}
+
+.header-text h1{
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 25px;
+    line-height: 80px;
+}
+
+.header-text p{
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.explore{
+    margin-top: 40px;
+}
+
+.explore a{
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: crimson;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.explore a:hover{
+    background: rgb(160, 13, 42);
+}
+
+    /* Header Gril Img */
+
+.gril-img img{
+    height: 600px;
+    position: absolute;
+    top: 270px;
+    right: 250px;
+}
+
+/* modal Shop button Css  */
+
+.modal_shop{
+   margin-left: 150px;
+   margin-top: 10px;
+}
+
+   /* Our product Start */
+
+.our-product-heading{
+    text-align: center;
+    position: relative;
+    width: 1600px;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.our-product-heading::before{
+    content: "";
+    position: absolute;
+    background:crimson;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;  
+}
+
+.product{
+    margin: 0% auto;
+    width: 1650px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.basic{
+    display: inline-block;
+    margin: 30px 80px 15px 80px ;
+    position: relative;    
+}
+
+.basic h1{
+    text-align: left;
+    padding: 20px 0;
+}
+
+.star{
+    text-align: left;
+    color: crimson;
+    font-size: 22px;
+}
+
+.price{
+    text-align: left;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+sup{
+    color: crimson;
+}
+
+/* Secound Banner Start */
+
+.secound-banner{
+    height: 670px;
+    background-image: radial-gradient(white, crimson);
+    position: relative;
+}
+
+.secound-banner-text{
+    width: 700px;
+    margin-left: 100px;
+    padding-top: 120px;
+   
+}
+
+.secound-banner-text h1{
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 25px;
+    line-height: 80px;
+    display: inline-block;
+}
+
+.secound-banner-text p{
+    font-size: 25px;
+    line-height: 50px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.apple-watch{
+    margin-top: 40px;
+    
+
+}
+
+.apple-watch a{
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: crimson;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: .5s;
+}
+
+
+.apple-watch a:hover{
+    background: rgb(128, 8, 32);
+}
+
+.watch-img img{
+    height: 600px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+/* ---Pruduct Hover--- */
+
+.hover{
+    display: inline-block;
+}
+
+.inner-box {
+    width: 350px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.301);  
+    position: absolute;
+    top: 0px;
+    left: px;
+    text-align: center;
+    opacity: 0;
+    transition: .5s;
+    transform-origin: left center;
+    transform: translate(0px,0px) scale(0);
+}
+.inner-box a{
+    font-size: 18px;
+    color: white;
+    background-color: #ec2b3a;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 106px;
+}
+.hover:hover .inner-box{
+    opacity: 1;
+    transform:translate(0px, 0px) scale(1);
+}
+
+.all-in-one{
+    display: inline-block;
+    margin: 10px 113px;
+    position: relative;
+}
+
+.all-in-one::before{
+    content: "";
+}
+.hover{
+    width: 300px;
+}
+.hover img{
+    
+    margin-bottom: 20px;
+}
+.all-in-one h3{
+    text-align: left;
+}
+.sk{
+    text-align-last: left;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.sk i{
+    font-style: italic;
+    color: #d90029;
+}
+
+.icons{
+    text-align: left;
+    color: crimson;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.rolex{
+    width: 300px;
+    display: inline-block;
+    margin: 48px;
+}
+.rolex img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.trouser{
+    width: 300px;
+    display: inline-block;
+    margin: 48px; 
+}
+.trouser img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Testimonials Start */
+
+.testimonials-heading{
+    text-align: center;
+    position: relative;
+    width: 1600px;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.testimonials-heading::before{
+    content: "";
+    position: absolute;
+    background: crimson;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+}
+
+.testimonials-all-div{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.testimonials-basic p{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+
+.testimonials-basic{
+    width: 505px;
+    height: 400px;
+    margin: 100px 10px 20px 10px;
+    background: #eee;
+    display: inline-block;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+} 
+
+.testimonials-img img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -76px;
+    left: 174px;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h3{
+    color: crimson;
+}
+
+
+/* testiminials hover section */
+
+.thvr:hover .title h3{
+    color: #fff;
+}
+
+.thvr:hover{
+   width: 505px;
+   height: 400px;
+   background-color: Crimson;
+   color: white;
+   transition: .5s;
+}
+.thvr::after{
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    background-image: url(https://i.ibb.co/NFd44pK/quotes.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.thvr:hover::after{
+    transform: translateY(-75px);
+    opacity: 1;
+}
+
+.thvr::before{
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    left: 55px;
+    background-image: url(https://i.ibb.co/NFd44pK/quotes.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+    transform: rotateY(180deg);
+    transition: .4s;
+}
+
+.thvr:hover::before{
+    transform: translateY(55px) rotateY(180deg);
+    opacity: 1;
+}
+
+/* Company logo start */
+
+.logo-div{
+    margin-left: 210px;
+}
+
+.logo-div img{
+    padding: 80px;
+    filter: opacity(0.2);
+    transition: .5s;
+    
+}
+
+.logo-div img:hover{
+    filter: opacity(1);
+}
+
+.logo1{
+    display: inline-block;
+}
+
+.logo2{
+    display: inline-block;
+}
+
+.logo3{
+    display: inline-block;
+}
+
+.logo4{
+    display: inline-block;
+}
+
+.logo5{
+    display: inline-block;
+}
+
+
+/* Footer Start */
+footer{
+    height: 500px;
+    color: #fff;
+    background: #000;
+    position: relative;
+}
+
+
+.same{
+    display: inline-block;
+    padding: 70px 00 50px 0;
+    font-weight: 700;
+    padding: 10px 30px;
+    position: absolute;
+    
+    
+}
+
+.same p{
+    width: 400px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.same i{
+    margin-right: 10px;
+}
+
+.footer-main{
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.about{
+    top: 40px;
+    left: 0%;
+}
+
+    /* Footer Icon */
+
+.icon{
+    position: absolute;
+    left: 80px;
+    bottom: 80px;
+}
+
+
+.icon ul{
+    text-align: center;
+}
+    
+.icon ul li{
+    display: inline-block;
+}
+    
+.icon ul li a{
+    color:#fff;
+    background-color: #000;
+    font-size: 22px;
+    margin-left: 5px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    border: 1px solid #fff;
+    transition: .4s;
+    }
+    
+.icon ul li a:hover{
+    background: #fff;
+    color: crimson;
+}
+
+
+
+.main-menu{
+    top: 40px;
+    left: 30%;
+}
+
+.main-menu ul{
+    padding-top: 20px;
+}
+
+.main-menu li{
+    list-style: none;
+    margin-left: -35px;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    transition: .5s;  
+}
+
+.quick-link{
+    top: 45px;
+    left: 55%;
+}
+
+.quick-link ul{
+    padding-top: 20px;
+}
+
+.quick-link ul li{
+    list-style: none;
+    margin-left: -35px;
+}
+
+.quick-link ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    transition: .5s;
+}
+
+.contact{
+    top: 40px;
+    left: 80%;
+}
+
+.contact ul{
+    padding-top: 20px;
+}
+
+.contact ul li{
+    list-style: none;
+    margin-left: -35px;
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    transition: .5s;
+}
+
+.same ul li a:hover{
+    color: crimson;
+}
+
+footer h4{
+    position: absolute;
+    left: 36%;
+    bottom: -27px;
+}
